@@ -11,7 +11,7 @@ tommy.shape("turtle")
 tommy.speed(100)
 
 # Draw three circles:
-draw_circle(tommy, "black", 43, 37, 17)
+draw_circle(tommy, "black", 45, 37, 17)
 draw_circle(tommy, "peachpuff", 50, 25, 0)
 tommy.begin_fill()
 tommy.goto(-25,0)
