@@ -1,11 +1,21 @@
 import turtle
 import time
 
+#greeting
 elsa = turtle.Turtle()
+elsa.color("red")
 elsa.shape("turtle")
 elsa.speed(5)
+elsa.penup()
+elsa.write("//COVER WORDS", True, "center", ("標楷體", 10, "normal"))
+elsa.goto(0,-30)
+elsa.write("//MESSAGES 😝", True, "center", ("標楷體", 20, "normal"))
+elsa.penup()
+elsa.goto(1000,0)
+time.sleep(5)
 turtle.Screen().bgcolor("red")
 elsa.color("white")
+
 
 #outershell
 elsa.goto(0, 25)
@@ -108,3 +118,39 @@ elsa.goto(-40,85)
 elsa.circle(3,-90)
 elsa.goto(-25,85)
 elsa.end_fill()
+
+#message
+elsa.penup()
+elsa.goto(0,150)
+elsa.color("white")
+elsa.right(180)
+elsa.speed(1)
+elsa.write("//MESSAGES INSIDE", True, "center", ("標楷體", 16, "normal")) 
+elsa.right(75)
+elsa.speed(5)
+elsa.goto(0,-130)
+elsa.speed(1)
+elsa.left(75)
+elsa.write("//STILL MESSAGES INSIDE", True, "center", ("標楷體",12 , "normal"))
+
+
+elsa.speed(10)
+elsa.goto(1000,-150)
+time.sleep(2)
+elsa.goto(0,-170)
+elsa.write("//MM HO YI SI GONG GEH MESSAGE", True, "center", ("標楷體",10, "normal"))
+elsa.goto(1000,-170)
+time.sleep(5)
+print("//EVEN MM HO YI SI GONG GEH MESSAGE")
+time.sleep(2)
+print("DITTO")
+time.sleep(2)
+print("DITTO")
+time.sleep(2)
+print("DITTO")
+time.sleep(2)
+print("DITTO")
+time.sleep(3)
+print("lmao 又係我極度幼稚嘅手筆")
+time.sleep(2)
+print("多謝賞面睇到呢到😂")
